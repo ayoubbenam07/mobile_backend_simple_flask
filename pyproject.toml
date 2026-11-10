@@ -1,2 +1,10 @@
+[project]
+name = "mobile-backend"
+version = "0.1.0"
+dependencies = [
+    "Flask==3.0.3",
+    "gunicorn==21.2.0"
+]
+
 [tool.vercel]
 entrypoint = "backend:app"
